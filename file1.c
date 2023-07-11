@@ -2,8 +2,6 @@
 
 int main() {
 
-    printf("Hello, World!\n");
-
     int contador = 0;
 
     if (contador == 0) {
@@ -11,6 +9,8 @@ int main() {
     } else {
         printf("O contador não é igual a zero.\n");
     }
+
+    printf("Hello, World!\n");
 
     while (contador < 5) {
         printf("Contador: %d\n", contador);
