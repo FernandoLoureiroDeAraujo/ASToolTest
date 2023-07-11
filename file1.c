@@ -12,5 +12,10 @@ int main() {
         printf("O contador não é igual a zero.\n");
     }
 
+    while (contador < 5) {
+        printf("Contador: %d\n", contador);
+        contador++;
+    }
+
     return 0;
 }
